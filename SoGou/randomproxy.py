@@ -23,7 +23,7 @@ class RandomProxy(object):
         """
         while True:
             # 获取代理
-            response = requests.get("http://39.107.59.59/get?spider_name=guomei")
+            response = requests.get("")
             # json ---> dict
             data = response.json()
             # 响应码
